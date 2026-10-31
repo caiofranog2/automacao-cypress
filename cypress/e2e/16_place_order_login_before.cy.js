@@ -42,7 +42,7 @@ describe('Test Case 16: Place Order: Login before Checkout', () => {
 
       checkoutPage.verifyAddressDetailsVisible();
       checkoutPage.verifyReviewOrderVisible();
-      checkoutPage.enterCommentAndPlaceOrder('Pedido via Test Case 16');
+      checkoutPage.enterCommentAndPlaceOrder('Entregar na portaria');
 
       paymentPage.fillPaymentDetails(data.payment);
       paymentPage.clickPayAndConfirmOrder();

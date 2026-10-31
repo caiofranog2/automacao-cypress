@@ -36,7 +36,7 @@ describe('Test Case 15: Place Order: Register before Checkout', () => {
 
         checkoutPage.verifyAddressDetailsVisible();
         checkoutPage.verifyReviewOrderVisible();
-        checkoutPage.enterCommentAndPlaceOrder('Pedido via automação Cypress');
+        checkoutPage.enterCommentAndPlaceOrder('Favor deixar na portaria do bloco');
 
         paymentPage.fillPaymentDetails(data.payment);
         paymentPage.clickPayAndConfirmOrder();

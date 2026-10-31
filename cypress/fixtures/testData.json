@@ -1,22 +1,21 @@
 {
   "existingUser": {
-    "name": "Usuario Existente",
-    "email": "existing_user_qa@test.com",
-    "password": "Password123!"
+    "name": "Lucas Ferreira",
+    "email": "lucas.ferreira.bsb@gmail.com",
+    "password": "Brasilia@2024"
   },
   "invalidUser": {
-    "email": "invalid_email_not_registered@fake.com",
-    "password": "WrongPassword999"
+    "email": "lucas.inexistente.bsb@gmail.com",
+    "password": "SenhaErrada123"
   },
   "search": {
     "term": "Dress"
   },
   "payment": {
-    "nameOnCard": "QA Tester",
+    "nameOnCard": "Lucas Ferreira",
     "cardNumber": "4111111111111111",
     "cvc": "311",
     "expiryMonth": "12",
     "expiryYear": "2028"
   }
 }
-

@@ -30,7 +30,7 @@ describe('Test Case 5: Register User with existing email', () => {
     homePage.clickSignupLogin();
     signupLoginPage.verifyNewUserSignupVisible();
 
-    signupLoginPage.fillSignup('Outro Nome', user.email);
+    signupLoginPage.fillSignup('Lucas Silva', user.email);
     signupLoginPage.clickSignup();
 
     signupLoginPage.verifyExistingEmailErrorMessage();
