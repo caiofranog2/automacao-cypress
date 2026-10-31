@@ -1,0 +1,27 @@
+{
+  "name": "automacao-testes-cypress",
+  "version": "1.0.0",
+  "description": "Trabalho de Automação de Testes Web - Automation Exercise",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "cypress run",
+    "test:headless": "cypress run --headless --browser chrome",
+    "report:generate": "npx mochawesome-merge cypress/reports/.jsons/*.json > cypress/reports/mochawesome.json && npx marge cypress/reports/mochawesome.json -f report -o cypress/reports/html"
+  },
+  "keywords": [
+    "cypress",
+    "qa",
+    "automation",
+    "e2e",
+    "page-objects"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.15.1",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
+
